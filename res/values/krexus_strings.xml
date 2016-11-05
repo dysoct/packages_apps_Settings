@@ -124,6 +124,10 @@
     <string name="systemui_tuner_statusbar_title">Items</string>
     <string name="systemui_tuner_statusbar_summary">Show/hide statusbar items</string>
 
+    <!-- Double tap-to-sleep -->
+    <string name="double_tap_to_sleep_title">Double-tap to sleep</string>
+    <string name="double_tap_to_sleep_summary">Double-tap on the status bar to turn off the display</string>
+
     <!-- About Krexus -->
     <string name="krexus_about_title">About Krexus</string>
     <string name="krexus_about_info">ROM</string>
