@@ -19,7 +19,14 @@
                 android:targetPackage="com.android.systemui"
                 android:targetClass="com.android.systemui.tuner.TunerActivity" />
          </PreferenceScreen>
-
+	    
+    <!-- Double tap to sleep -->
+        <SwitchPreference
+                android:key="double_tap_sleep_gesture"
+                android:title="@string/double_tap_to_sleep_title"
+                android:summary="@string/double_tap_to_sleep_summary"
+                android:defaultValue="true" />
+	    
     </PreferenceCategory>
 
     <!-- Clock & date -->
